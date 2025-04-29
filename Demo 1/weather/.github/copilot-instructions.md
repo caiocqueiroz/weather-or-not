@@ -1,0 +1,1 @@
+Only use free APIs. Prefer APIs that do not require registration or any kind of token or username.
