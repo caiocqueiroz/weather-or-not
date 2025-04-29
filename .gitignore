@@ -4,38 +4,36 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
+*.egg
+*.egg-info/
 dist/
-downloads/
+build/
 eggs/
-.eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
 lib/
 lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
 
 # Virtual Environment
 venv/
 ENV/
 env/
-.env/
-.venv/
-
-# VS Code
-.vscode/
-*.code-workspace
+.env
 
 # IDE
 .idea/
+.vscode/
 *.swp
 *.swo
-.DS_Store
 
-# Logs
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
 *.log
+.env.local
